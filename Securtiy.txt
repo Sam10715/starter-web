@@ -1,0 +1,14 @@
+@Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+                .csrf().disable()
+                .headers()
+                .httpStrictTransportSecurity()
+                .includeSubDomains(true)
+                .maxAgeInSeconds(86400)
+                .and()
+                .xssProtection().xssProtectionEnabled(true)
+                .and()
+                .frameOptions().sameOrigin()
+                .addHeaderWriter(new StaticHeadersWriter("X-Content-Security-Policy", "default-src 'self' vmnw-video-prod.s3.eu-west-1.amazonaws.com *.vanmetennaarweten.nl *.gstatic.com cognito-idp.eu-west-1.amazonaws.com blob: graphData:; worker-src blob:;  style-src 'self' 'unsafe-inline' *.googleapis.com; script-src 'self' 'unsafe-eval'"));
+    }
