@@ -1,0 +1,2961 @@
+<?xml version="1.0" ?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	
+	
+	<Body>
+		
+		
+		<getCropRecordingResponse xmlns="http://www.agroconnect.nl/Portals/10/XSDs/WS_EDI_Crop/v5_10/XSD_WS-EDI-Crop_v5_10">
+			
+			
+			
+			<Status>000</Status>
+			
+			
+			<MessageId>2018-Prod</MessageId>
+			
+			
+			<CropYear>2017</CropYear>
+			
+			
+			
+			<CropRecordingMessage>
+				
+				
+				<ExchangedDocument xmlns="http://www.agroconnect.nl/Portals/10/XSDs/XSDs_EDI_Crop/v5_0/EDI-Crop-CropRecording_v5_0">
+					
+					
+					
+					<ID schemeID="token">CROPR_CRPREC_6748_1045_1570955185_225748</ID>
+					
+					
+					<Type>CRPREC</Type>
+					
+					
+					<EdiCropVersion>CRP5.0</EdiCropVersion>
+					
+					
+					<MessageTypeVersion>5.0</MessageTypeVersion>
+					
+					
+					<IssueDate>2019-10-13T10:26:25.225926</IssueDate>
+					
+					
+					<CropYear>2017</CropYear>
+					
+					
+					<ReportCount>1</ReportCount>
+					
+					
+					<Description>CropRecording 2017 for farm sambeeck Vof</Description>
+					
+					
+					<Issuer>
+						
+						
+						<ID schemeID="ANL">AGRONL53188772FRMCROPR1045</ID>
+						
+						
+						<Name>sambeeck Vof</Name>
+						
+						
+						
+						<Country>NL</Country>
+						
+						
+						<PostalAddress>
+							
+							
+							<PostcodeCode>5541 nm</PostcodeCode>
+							
+							
+							<StreetName>postelsedijk 10</StreetName>
+							
+							
+							<CityName>reusel</CityName>
+							
+							
+							<Country>NL</Country>
+							
+							
+							<CountryName>Netherlands</CountryName>
+							
+						
+						</PostalAddress>
+						
+
+					
+					</Issuer>
+					
+										
+					<Sender>
+						
+						
+						<ID schemeID="ANL">CROPR</ID>
+						
+						
+						<Name>Dacom (Crop-R)</Name>
+						
+
+						
+						<Country>NL</Country>
+						
+						
+						<PostalAddress>
+							
+							
+							<PostcodeCode>9723ZA</PostcodeCode>
+							
+							
+							<StreetName>Helperpark 282</StreetName>
+							
+							
+							<CityName>Groningen</CityName>
+							
+							
+							<Country>NL</Country>
+							
+							
+							<CountryName>Nederland</CountryName>
+							
+						
+						</PostalAddress>
+						
+
+					
+					</Sender>
+					
+
+					
+					<Receiver>
+						
+						
+						<ID schemeID="ANL">AGRONL53188772FRMCROPR1045</ID>
+						
+						
+						<Name/>
+						
+						
+					
+					</Receiver>
+					
+
+				
+				</ExchangedDocument>
+				
+				
+				<Farm xmlns="http://www.agroconnect.nl/Portals/10/XSDs/XSDs_EDI_Crop/v5_0/EDI-Crop-CropRecording_v5_0">
+					
+					
+					<FarmID schemeID="ANL">AGRONL53188772FRMCROPR1045</FarmID>
+					
+					
+					<FarmDesignator>sambeeck Vof</FarmDesignator>
+					
+                    
+					<FarmContact>
+						
+    
+						<ID schemeID="ANL">AGRONL53188772FRMCROPR1045</ID>
+						
+    
+						<Name>sambeeck Vof</Name>
+						
+    
+						
+						<Country>NL</Country>
+						
+						
+						<PostalAddress>
+							
+							
+							<PostcodeCode>5541 nm</PostcodeCode>
+							
+							
+							<StreetName>postelsedijk 10</StreetName>
+							
+							
+							<CityName>reusel</CityName>
+							
+							
+							<Country>NL</Country>
+							
+							
+							<CountryName>Netherlands</CountryName>
+							
+						
+						</PostalAddress>
+						
+
+    
+						<PartyContact>
+							
+        
+							<ID schemeID="ANL">AGRONL53188772FRMCROPR1045</ID>
+							
+        
+							<PersonName>Van Sambeeck VOF</PersonName>
+							
+        
+							<Email>
+								<CompleteNumber/>
+							</Email>
+							
+    
+						</PartyContact>
+						
+
+					</FarmContact>
+					
+					
+					
+                    
+                    
+					<Contract>
+						
+                        
+						<ContractID schemeAgencyName="LWM" schemeID="ANL">17FS105-3</ContractID>
+						
+                        
+						<ContractDate>2017-01-01T00:00:00</ContractDate>
+						
+                        
+						<ContractPartyName>LWM</ContractPartyName>
+						
+                        
+						<ThirdPartyFarmID schemeAgencyName="LWM" schemeID="ANL">2</ThirdPartyFarmID>
+						
+                    
+					</Contract>
+					
+                    
+					
+										
+					<Field>
+						
+						
+						<FieldID schemeID="ANL">AGRONL53188772FLDCROPR1045_P1237271</FieldID>
+						
+						
+						<FieldDesignator>marcel tenbult to rijkers</FieldDesignator>
+						
+						
+						
+						
+						<BeginDate>2017-01-01T00:00:00+01:00</BeginDate>
+						
+						
+						<Area unitCode="HAR">3.1505</Area>
+						
+						
+						<RegulatorySoiltypeCode listID="CL405" name="Onbekend">99</RegulatorySoiltypeCode>
+						
+						
+						<RegularOrOrganicCode listID="CL015">1</RegularOrOrganicCode>
+						
+						
+						<Border>
+							
+	
+		
+							<exterior xmlns="http://www.agroconnect.nl/Portals/10/XSDs/XSDs_EDI_Crop/v5_0/GML_Types_EDI-Crop_v5_0">
+								
+			
+								<LinearRing>
+									
+				
+									<posList srsName="EPSG:4326">5.24491854 51.35595766 5.24490693 51.35593138 5.24447539 51.35625464 5.24449436 51.35626299 5.2444578 51.35628959 5.24373232 51.35681803 5.24267283 51.35761712 5.24267918 51.357624 5.24363325 51.35863356 5.24367871 51.35867286 5.24372808 51.35867649 5.2439125 51.35861607 5.2441324 51.35852219 5.24427853 51.35841961 5.2444908 51.35821786 5.24578739 51.35697387 5.24540714 51.35666487 5.24536549 51.3566232 5.24525395 51.35645302 5.24491854 51.35595766 </posList>
+									
+			
+								</LinearRing>
+								
+		
+							</exterior>
+							
+	
+
+						</Border>
+						
+
+						
+													
+						<CropField>
+							
+							
+							<CropFieldID schemeID="ANL">AGRONL53188772CFDCROPR1045_1237271</CropFieldID>
+							
+							
+							<CropFieldDesignator>marcel tenbult to rijkers</CropFieldDesignator>
+							
+                            
+							<BeginDate>2017-01-01T00:00:00+01:00</BeginDate>
+							
+							
+							<EndDate>2017-12-31T00:00:00+01:00</EndDate>
+							
+						
+							
+                            
+                            
+							<ContractIDRef schemeAgencyName="LWM" schemeID="ANL">17FS105-3</ContractIDRef>
+							
+                            
+                        
+							
+							<Country>NL</Country>
+							
+						
+							
+						
+							
+							<Area unitCode="HAR">3.1505</Area>
+							
+							
+							<RegulatorySoiltypeCode listID="CL405" name="Zand">1</RegulatorySoiltypeCode>
+							
+                            
+                                
+							<LocalSoiltypeCode listID="CL405" name="Zand">1</LocalSoiltypeCode>
+							
+                            
+						
+                            
+
+						
+							
+							<CropTypeCode listID="CL263" name="Aardappel">1010101</CropTypeCode>
+							
+							
+							<VarietyCode listID="CL232" name="Ivory Russet">14266</VarietyCode>
+							
+                            
+							
+							<CropProductionPurposeCode listID="CL251" name="Friet">001</CropProductionPurposeCode>
+							
+                            
+						
+							
+								
+							<CropFieldCharacteristic>
+								<PropertyVariableCode listID="CL265">501486</PropertyVariableCode>
+								<PropertyVariableValue>6110101</PropertyVariableValue>
+							</CropFieldCharacteristic>
+							
+							
+							
+						
+						
+							<Border>
+								
+	
+		
+								<exterior xmlns="http://www.agroconnect.nl/Portals/10/XSDs/XSDs_EDI_Crop/v5_0/GML_Types_EDI-Crop_v5_0">
+									
+			
+									<LinearRing>
+										
+				
+										<posList srsName="EPSG:4326">5.24491854 51.35595766 5.24490693 51.35593138 5.24447539 51.35625464 5.24449436 51.35626299 5.2444578 51.35628959 5.24373232 51.35681803 5.24267283 51.35761712 5.24267918 51.357624 5.24363325 51.35863356 5.24367871 51.35867286 5.24372808 51.35867649 5.2439125 51.35861607 5.2441324 51.35852219 5.24427853 51.35841961 5.2444908 51.35821786 5.24578739 51.35697387 5.24540714 51.35666487 5.24536549 51.3566232 5.24525395 51.35645302 5.24491854 51.35595766 </posList>
+										
+			
+									</LinearRing>
+									
+		
+								</exterior>
+								
+	
+
+							</Border>
+							
+
+						
+                            
+							<PointLocation>
+								
+    
+								<PointLocationTypeCode listID="CL373" name="toegang perceel">1</PointLocationTypeCode>
+								
+    
+								<PointLocationDesignator>Ingang</PointLocationDesignator>
+								
+    
+								<PointLocationCoordinate>
+									
+        
+									<pos srsName="EPSG:4326" xmlns="http://www.agroconnect.nl/Portals/10/XSDs/XSDs_EDI_Crop/v5_0/GML_Types_EDI-Crop_v5_0">5.24493909021 51.3577877598</pos>
+									
+    
+								</PointLocationCoordinate>
+								
+
+							</PointLocation>
+							
+
+							
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640351</TaskID>
+								
+				
+								<EarliestBeginTime>2017-04-04T14:03:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-04-04T15:03:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165637</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-04-04T14:03:00</BeginDate>
+										
+						
+										<EndDate>2017-04-04T15:03:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640351</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165638</AllocationID>
+											
+							
+											<AllocationType listID="CL271">ORGANIC</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2330</ProductCode>
+											
+							
+											<ProductDesignator>Runderdrijfmest (16)</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_129961</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">35000</Quantity>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">15</ProductElementCode>
+												
+								
+												<ProductElementDesignator>P2O5</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">56</Quantity>
+												
+                                
+												<ConcentrationCode>0.0016 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">19</ProductElementCode>
+												
+								
+												<ProductElementDesignator>K2O</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">175</Quantity>
+												
+                                
+												<ConcentrationCode>0.005 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">1</ProductElementCode>
+												
+								
+												<ProductElementDesignator>N</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">101.5</Quantity>
+												
+                                
+												<ConcentrationCode>0.0029 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640352</TaskID>
+								
+				
+								<EarliestBeginTime>2017-04-29T14:04:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-04-29T15:04:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165639</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-04-29T14:04:00</BeginDate>
+										
+						
+										<EndDate>2017-04-29T15:04:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640352</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165640</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">3447</ProductCode>
+											
+							
+											<ProductDesignator>Polysulphate</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130545</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">500</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640353</TaskID>
+								
+				
+								<EarliestBeginTime>2017-05-05T14:04:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-05-05T15:04:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165641</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-05-05T14:04:00</BeginDate>
+										
+						
+										<EndDate>2017-05-05T15:04:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640353</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165642</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2186</ProductCode>
+											
+							
+											<ProductDesignator>NTS 27N</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130541</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">100</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640374</TaskID>
+								
+				
+								<EarliestBeginTime>2017-05-06T14:13:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-05-06T15:13:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165698</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-05-06T14:13:00</BeginDate>
+										
+						
+										<EndDate>2017-05-06T15:13:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640374</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165699</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">14224 N</ProductCode>
+											
+							
+											<ProductDesignator>Sencor sc</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130562</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.4</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165700</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">8950 N</ProductCode>
+											
+							
+											<ProductDesignator>Challenge</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130563</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">1</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165701</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">12557 N</ProductCode>
+											
+							
+											<ProductDesignator>Linurex 50 sc</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130564</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">1</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640375</TaskID>
+								
+				
+								<EarliestBeginTime>2017-05-09T14:14:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-05-09T15:14:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165702</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-05-09T14:14:00</BeginDate>
+										
+						
+										<EndDate>2017-05-09T15:14:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640375</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165703</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">8024 N</ProductCode>
+											
+							
+											<ProductDesignator>Sencor wg</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130565</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">0.1</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165704</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">6034 N</ProductCode>
+											
+							
+											<ProductDesignator>Basagran</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130566</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.15</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165705</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">13983 N</ProductCode>
+											
+							
+											<ProductDesignator>Kantor</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130567</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.2</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640336</TaskID>
+								
+				
+								<EarliestBeginTime>2017-05-11T13:50:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-05-11T14:50:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165594</OperationID>
+									
+					
+									<OperationDesignator>Ploegen</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">40500</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-05-11T13:50:00</BeginDate>
+										
+						
+										<EndDate>2017-05-11T14:50:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640336</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640377</TaskID>
+								
+				
+								<EarliestBeginTime>2017-06-02T14:16:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-06-02T15:16:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165708</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-06-02T14:16:00</BeginDate>
+										
+						
+										<EndDate>2017-06-02T15:16:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640377</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165709</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">13317 N</ProductCode>
+											
+							
+											<ProductDesignator>Orvego</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130548</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.8</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640379</TaskID>
+								
+				
+								<EarliestBeginTime>2017-06-08T14:16:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-06-08T15:16:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165712</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-06-08T14:16:00</BeginDate>
+										
+						
+										<EndDate>2017-06-08T15:16:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640379</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165713</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">13317 N</ProductCode>
+											
+							
+											<ProductDesignator>Orvego</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130548</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.7</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640355</TaskID>
+								
+				
+								<EarliestBeginTime>2017-06-14T14:06:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-06-14T15:06:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165651</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-06-14T14:06:00</BeginDate>
+										
+						
+										<EndDate>2017-06-14T15:06:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640355</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165652</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">3422</ProductCode>
+											
+							
+											<ProductDesignator>Activ'N 13-0-17</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130546</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">300</Quantity>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">17</ProductElementCode>
+												
+								
+												<ProductElementDesignator>CaO</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">9</Quantity>
+												
+                                
+												<ConcentrationCode>0.03 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">42</ProductElementCode>
+												
+								
+												<ProductElementDesignator>SO3</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">75</Quantity>
+												
+                                
+												<ConcentrationCode>0.25 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">9</ProductElementCode>
+												
+								
+												<ProductElementDesignator>MgO</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">9</Quantity>
+												
+                                
+												<ConcentrationCode>0.03 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">19</ProductElementCode>
+												
+								
+												<ProductElementDesignator>K2O</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">51</Quantity>
+												
+                                
+												<ConcentrationCode>0.17 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">1</ProductElementCode>
+												
+								
+												<ProductElementDesignator>N</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">39</Quantity>
+												
+                                
+												<ConcentrationCode>0.13 KGMKGM</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640357</TaskID>
+								
+				
+								<EarliestBeginTime>2017-06-24T14:06:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-06-24T15:06:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165655</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-06-24T14:06:00</BeginDate>
+										
+						
+										<EndDate>2017-06-24T15:06:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640357</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165656</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">13317 N</ProductCode>
+											
+							
+											<ProductDesignator>Orvego</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130548</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.8</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165657</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">14307 N</ProductCode>
+											
+							
+											<ProductDesignator>Narita</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130549</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.5</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165658</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">101</ProductCode>
+											
+							
+											<ProductDesignator>peleton</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130540</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">2</Quantity>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">15</ProductElementCode>
+												
+								
+												<ProductElementDesignator>P2O5</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">0.86</Quantity>
+												
+                                
+												<ConcentrationCode>0.43 KGMLTR</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640358</TaskID>
+								
+				
+								<EarliestBeginTime>2017-06-29T14:08:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-06-29T15:08:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165659</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-06-29T14:08:00</BeginDate>
+										
+						
+										<EndDate>2017-06-29T15:08:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640358</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165660</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2103</ProductCode>
+											
+							
+											<ProductDesignator>Magnesamon (MAS)</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130551</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">150</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640359</TaskID>
+								
+				
+								<EarliestBeginTime>2017-07-07T14:08:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-07-07T15:08:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165661</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-07-07T14:08:00</BeginDate>
+										
+						
+										<EndDate>2017-07-07T15:08:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640359</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165662</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">12927 N</ProductCode>
+											
+							
+											<ProductDesignator>Infinito</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130552</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">1.6</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165663</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">101</ProductCode>
+											
+							
+											<ProductDesignator>peleton</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130540</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">2</Quantity>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">15</ProductElementCode>
+												
+								
+												<ProductElementDesignator>P2O5</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">0.86</Quantity>
+												
+                                
+												<ConcentrationCode>0.43 KGMLTR</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640360</TaskID>
+								
+				
+								<EarliestBeginTime>2017-07-10T14:09:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-07-10T15:09:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165664</OperationID>
+									
+					
+									<OperationDesignator>Injecteren</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70700</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-07-10T14:09:00</BeginDate>
+										
+						
+										<EndDate>2017-07-10T15:09:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640360</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165665</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2114</ProductCode>
+											
+							
+											<ProductDesignator>Patentkali</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130554</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">120</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640362</TaskID>
+								
+				
+								<EarliestBeginTime>2017-07-14T14:09:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-07-14T15:09:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165668</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-07-14T14:09:00</BeginDate>
+										
+						
+										<EndDate>2017-07-14T15:09:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640362</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165669</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">12927 N</ProductCode>
+											
+							
+											<ProductDesignator>Infinito</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130552</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">1.5</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165670</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">14307 N</ProductCode>
+											
+							
+											<ProductDesignator>Narita</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130549</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.5</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165671</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2548</ProductCode>
+											
+							
+											<ProductDesignator>EPSO Microtop</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130555</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">10</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640365</TaskID>
+								
+				
+								<EarliestBeginTime>2017-07-21T14:10:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-07-21T15:10:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165676</OperationID>
+									
+					
+									<OperationDesignator>Gewasbeschermen (algemeen)</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">80000</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-07-21T14:10:00</BeginDate>
+										
+						
+										<EndDate>2017-07-21T15:10:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640365</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165677</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROTEC</AllocationType>
+											
+                            
+											<ProductCode listID="CTGB">13530 N</ProductCode>
+											
+							
+											<ProductDesignator>Canvas</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130557</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">0.25</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165678</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">3169</ProductCode>
+											
+							
+											<ProductDesignator>Kristalon Blauwmerk</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130558</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">5</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640368</TaskID>
+								
+				
+								<EarliestBeginTime>2017-07-26T14:11:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-07-26T15:11:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165686</OperationID>
+									
+					
+									<OperationDesignator>Kunstmest strooien</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">70400</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-07-26T14:11:00</BeginDate>
+										
+						
+										<EndDate>2017-07-26T15:11:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640368</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165687</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2102</ProductCode>
+											
+							
+											<ProductDesignator>KAS 27 (Kalkammonsalpeter)</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130559</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">100</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640369</TaskID>
+								
+				
+								<EarliestBeginTime>2017-09-25T14:12:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-09-25T15:12:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165688</OperationID>
+									
+					
+									<OperationDesignator>Rooien</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">100300</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-09-25T14:12:00</BeginDate>
+										
+						
+										<EndDate>2017-09-25T15:12:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640369</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+						
+										<ProduceAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PRDCE</AllocationType>
+											
+							
+											<ProductCode listID="CL263">1010101</ProductCode>
+											
+							
+											<ProductDesignator>Aardappel</ProductDesignator>
+											
+							
+							
+											<Quantity unitCode="TNEHAR">65.61</Quantity>
+											
+
+						
+										</ProduceAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+			
+							<Task>
+								
+				
+								<TaskID schemeID="ANL">AGRONL53188772TSKCROPR1045_640346</TaskID>
+								
+				
+								<EarliestBeginTime>2017-11-06T14:00:00</EarliestBeginTime>
+								
+				
+								<LatestEndTime>2017-11-06T15:00:00</LatestEndTime>
+								
+				
+				
+								<TaskStatusCode listID="CL256">3</TaskStatusCode>
+								
+				
+				
+								<Operation>
+									
+					
+									<OperationID schemeID="ANL">AGRONL53188772OPRCROPR1045_3165621</OperationID>
+									
+					
+									<OperationDesignator>Poten</OperationDesignator>
+									
+					
+									<OperationStage listID="CL256">3</OperationStage>
+														
+					
+									<CulturalPracticeCode listID="CL127">60500</CulturalPracticeCode>
+									
+					
+									<AbsoluteTiming>
+										
+						
+										<BeginDate>2017-11-06T14:00:00</BeginDate>
+										
+						
+										<EndDate>2017-11-06T15:00:00</EndDate>
+										
+					
+									</AbsoluteTiming>
+									
+					
+									<TreatmentZone>
+										
+						
+										<TreatmentZoneID schemeID="ANL">AGRONL53188772TRZCROPR1045_640346</TreatmentZoneID>
+										
+                    	
+                            
+						
+                        
+                            
+										<TreatmentCharacteristic>
+											<PropertyVariableCode listID="CL265">760080</PropertyVariableCode>
+											<PropertyVariableValue>35.0</PropertyVariableValue>
+										</TreatmentCharacteristic>
+										
+                        
+                            
+										<TreatmentCharacteristic>
+											<PropertyVariableCode listID="CL265">760866</PropertyVariableCode>
+											<PropertyVariableValue>75.0</PropertyVariableValue>
+										</TreatmentCharacteristic>
+										
+                        
+						
+										<Area unitCode="HAR">3.1505</Area>
+										
+					
+						
+
+						
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165621</AllocationID>
+											
+							
+											<AllocationType listID="CL271">PROPAGATION</AllocationType>
+											
+                            
+											<ProductCode listID="CL036">21</ProductCode>
+											
+							
+											<ProductDesignator>Ivory Russet</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="KGM">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_129962</BatchID>
+											
+							
+											<Quantity unitCode="KGMHAR">0</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165624</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">2186</ProductCode>
+											
+							
+											<ProductDesignator>NTS 27N</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130541</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">80</Quantity>
+											
+							
+						
+										</ProductAllocation>
+										
+						
+										<ProductAllocation>
+											
+							
+											<AllocationID schemeID="ANL">AGRONL53188772ALLCROPR1045_3165625</AllocationID>
+											
+							
+											<AllocationType listID="CL271">FERTIL</AllocationType>
+											
+                            
+											<ProductCode listID="CL022">101</ProductCode>
+											
+							
+											<ProductDesignator>peleton</ProductDesignator>
+											
+                            
+											<ProductCost>
+												
+                                
+												<Cost currencyID="EUR">0</Cost>
+												<CostDimension unitCode="LTR">1</CostDimension>
+												
+                            
+											</ProductCost>
+											
+							
+											<BatchID schemeID="ANL">AGRONL53188772BATCROPR1045_130540</BatchID>
+											
+							
+											<Quantity unitCode="LTRHAR">20</Quantity>
+											
+							
+							
+											<ProductComposition>
+												
+								
+												<ProductElementCode listID="CL363">15</ProductElementCode>
+												
+								
+												<ProductElementDesignator>P2O5</ProductElementDesignator>
+												
+								
+												<Quantity unitCode="KGMHAR">8.6</Quantity>
+												
+                                
+												<ConcentrationCode>0.43 KGMLTR</ConcentrationCode>
+												
+							
+											</ProductComposition>
+											
+							
+						
+										</ProductAllocation>
+										
+					
+					
+									</TreatmentZone>
+									
+				
+								</Operation>
+								
+				
+			
+							</Task>
+							
+
+							
+
+						
+						
+						</CropField>
+						
+
+						
+					
+					</Field>
+					
+
+					
+				
+				</Farm>
+				
+			
+			</CropRecordingMessage>
+			
+			
+
+		
+		</getCropRecordingResponse>
+		
+	
+	</Body>
+	
+
+</Envelope>
